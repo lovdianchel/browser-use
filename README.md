@@ -37,7 +37,7 @@
 <a href="https://cloud.browser-use.com?utm_source=github&utm_medium=readme-badge-cloud"><img src="https://media.browser-use.tools/badges/cloud" height="48" alt="Browser-Use Cloud"></a>
 </div>
 
-Browser Use is an open-source Python library that lets AI agents use a web browser: open pages, click, type, fill forms and extract data, with the LLM you choose. [Browser Use Cloud](https://cloud.browser-use.com) runs it for you: stealth cloud browsers with CAPTCHA solving and residential proxies from $0.02 per browser-hour, plus a hosted agents API. On [Stealth Bench V2](https://browser-use.com/benchmarks/browsers) (100 hard bot-protected sites, September 2026), Browser Use Cloud got through on 90.5% of visits, ahead of Anchor (82%), Kernel (80.5%) and Browserbase (78.5%). [Browser Harness](https://github.com/browser-use/browser-harness), our second open-source project, lets Claude Code, Codex or Cursor use your real Chrome, logged in as you.
+The open-source browser agent. Run it locally with any LLM, or on [Browser Use Cloud](https://cloud.browser-use.com): stealth browsers from $0.02/hour, top score (90.5%) on [Stealth Bench V2](https://browser-use.com/benchmarks/browsers).
 
 <br/>
 
@@ -63,14 +63,11 @@ Find an available slot, pick a date and time, handle the CAPTCHA, and book a dri
 
 # Which Browser Use do I need?
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="static/readme/which-product-dark.svg">
-  <img alt="Three ways to use Browser Use: fully hosted cloud; your existing agent with Browser Use CLI; or the open source Browser Use agent, available as a Python library. The CLI and library each connect to a local or cloud browser." src="static/readme/which-product-light.svg" width="100%">
-</picture>
-
-- **[Path 1: Fully Hosted Cloud](#path-1-fully-hosted-cloud):** Scale up with a fully hosted agent and browser.
-- **[Path 2: CLI](#path-2-cli):** Automate your own browser tasks.
-- **[Path 3: Python Library](#path-3-python-library):** Run the open source Browser Use agent locally from your own code.
+| | Agent | Browser | Best for |
+|---|---|---|---|
+| **[1. Cloud](#path-1-fully-hosted-cloud)** | Ours, hosted (V4 API) | Cloud | Scaling up |
+| **[2. CLI](#path-2-cli)** | Yours: Claude Code, Codex, Hermes, OpenClaw | Your Chrome or cloud | Your own browser tasks |
+| **[3. Python library](#path-3-python-library)** | Ours, open source | Local or cloud | Building it into your code |
 
 # Quickstart
 
